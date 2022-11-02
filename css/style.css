@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    padding: 20px;
+}
+
+.titolo{
+    display: flex;
+    align-items: center;
+}
+
+.titolo img{
+    width: 100px;
+}
+
+.btn{
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.btn button{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container {
+	display: flex;
+	height: 100%;
+    background-color: #7FFFD4;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 500px;
+	height: 500px;
+	border: 2px solid black;
+}
+
+.cell {
+	border: 2px solid black;
+	height: calc(100% / 10);
+	width: calc(100% / 10);
+}
+
+.cell.active {
+	background-color: gold;
+}
+
