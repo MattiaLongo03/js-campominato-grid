@@ -37,6 +37,13 @@ footer{
     border-radius: 10px;
 }
 
+.mode{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
 	display: flex;
 	height: 100%;
