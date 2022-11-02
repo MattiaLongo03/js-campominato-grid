@@ -53,6 +53,9 @@ footer{
 }
 
 .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
 	border: 2px solid black;
 	height: calc(100% / 10);
 	width: calc(100% / 10);
